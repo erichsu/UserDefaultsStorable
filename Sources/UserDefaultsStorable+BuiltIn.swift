@@ -23,7 +23,7 @@ extension Double: BuiltInUserDefaultsStorable {}
 extension Data: BuiltInUserDefaultsStorable {}
 extension Date: BuiltInUserDefaultsStorable {}
 extension String: BuiltInUserDefaultsStorable {}
-extension URL: BuiltInUserDefaultsStorable {}
+extension URL: UserDefaultsStorable {}
 extension Dictionary: UserDefaultsStorable where Key == String {
     public typealias BridgedType = Self
 }
